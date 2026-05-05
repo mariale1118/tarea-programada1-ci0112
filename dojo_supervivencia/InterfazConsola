@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class InterfazConsola implements Interfaz {
+
+    private final Scanner sc = new Scanner(System.in);
+
+    @Override
+    public void mostrar(String mensaje) {
+        System.out.println(mensaje);
+    }
+
+ 
